@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %}{% endblock %}  
+</head>
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
+
+
+{# {% block head %}{% endblock %} highlights where to write code in other files, since i won't have to rewrite the whole file again #}
+{# kol el maktoob hena skeleton mesh lazem aktebo f kol html file #}
+{# h8ayar bas f mkan el curly braces #}
+{# {%  %} this syntax lel if statments w for loops w keda #}
+{# {{  }} this syntax lel strings #} <!-- comments in jinja syntax lw fi curly braces-->
+
